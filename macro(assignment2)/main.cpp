@@ -1,19 +1,18 @@
 #include <iostream>
 
-// Uncomment one of the macros below to set the desired season
-// #define SEASON_SPRING
-// #define SEASON_SUMMER
-// #define SEASON_AUTUMN
-// #define SEASON_WINTER
+#define SPRING_ENABLED   0
+#define SUMMER_ENABLED   0
+#define AUTUMN_ENABLED   1
+#define WINTER_ENABLED   0
 
 int main() {
-#if defined(SEASON_SPRING)
+#if SPRING_ENABLED
     std::cout << "Spring" << std::endl;
-#elif defined(SEASON_SUMMER)
+#elif SUMMER_ENABLED
     std::cout << "Summer" << std::endl;
-#elif defined(SEASON_AUTUMN)
+#elif AUTUMN_ENABLED
     std::cout << "Autumn" << std::endl;
-#elif defined(SEASON_WINTER)
+#elif WINTER_ENABLED
     std::cout << "Winter" << std::endl;
 #else
     std::cout << "Invalid season" << std::endl;
