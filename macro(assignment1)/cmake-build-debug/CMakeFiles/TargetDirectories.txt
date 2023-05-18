@@ -1,0 +1,3 @@
+/Users/gasoline/CLionProjects/macro(assignment1)/cmake-build-debug/CMakeFiles/macro_assignment1_.dir
+/Users/gasoline/CLionProjects/macro(assignment1)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gasoline/CLionProjects/macro(assignment1)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
